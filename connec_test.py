@@ -7,8 +7,16 @@
 # Tested on: Ubuntu 21.10 (GNU/Linux) & Windows 10
 # Python: 3.9
 
-# Imports
+# Imports 1/2
 import subprocess
+
+# Install missing packages
+def _install_missing():
+    subprocess.call(['python3', '-m', 'pip', 'install', '--upgrade', 'pip'])
+    subprocess.call(['python3', '-m', 'pip', 'install', '--upgrade', 'pillow'])
+_install_missing()
+
+# Imports 2/2
 import platform
 import urllib.request
 import socket
