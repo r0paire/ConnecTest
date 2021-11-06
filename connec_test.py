@@ -20,7 +20,7 @@ from PIL import Image, ImageTk
 # Configuration
 app = Tk()
 app.title("ConnecTest")
-app.iconphoto(False, tkinter.PhotoImage(file="images/connecTest.png"))
+app.iconphoto(False, tkinter.PhotoImage(file="images/connec_test.png"))
 app.configure(bg="#464542")
 app.geometry("1000x800")
 app.resizable(False, False)
@@ -62,7 +62,7 @@ authorLabel = Label(app, text="r0paire © 2021", font=('Ubuntu', '8', 'bold ital
 authorLabel.place(x=920, y=785)
 
 # Icon
-pre_img = Image.open("images/connecTest.png")
+pre_img = Image.open("images/connec_test.png")
 resized_img = pre_img.resize((50,50))
 icon = ImageTk.PhotoImage(resized_img)
 icon_label = Label(image=icon, bg="#464542")
