@@ -1,22 +1,23 @@
 # ConnecTest
 A website connectivity testing application coded in Python. <br> <br>
 <br>
-![image](https://drive.google.com/uc?export=view&id=19poVWwB7f3z9gjv2dtDTl-guCpDtU3qe)
+
+![Screenshot 2023-12-17 135849](https://github.com/r0paire/ConnecTest/assets/74907102/c6dd42ca-e534-43b1-bee7-0329f093be68)
+
 <br>
 <br>
 # Features:<br>
 ✅ Cross-compatibility between Linux, Windows and Mac.<br>
-✅ Ping test for a designated website.<br>
-✅ HTTP test for a designated website (port 80 for now).<br>
-✅ TCP test for a designated website (port 80 for now).<br>
-✅ UDP test for a designated website (port 53 for now).<br>
+✅ Ping test for a user-specified website/address.<br>
+✅ HTTP test for a user-specified website to test HTTP and HTTPS compatability.<br>
+✅ TCP test for a user-specified website/address on a user-specfied port.<br>
+✅ UDP test for a user-specified website/address on a user-specfied port.<br>
 <br>
 <br>
 # To be added (in next version):<br>
-💡 Port 443 option for HTTP test.<br>
-💡 Port selection for TCP test.<br>
-💡 Port selection or range for UDP test.<br>
+💡 DNS Test.<br>
+💡 Reintegrate PIL images.<br>
 <br>
 <br>
-# Current release version: 1.0 [06/11/2021]<br>
+# Current release version: 2.0 [15/12/2023]<br>
 r0paire
